@@ -2,6 +2,20 @@
 
 Avec cette petite démo, vous entrez dans le monde du stockage hyper-convergé de `Portworx`
 
+## Scénario
+
+En ⏱️ 11 minutes, à partir de n'importe quel navigateur *Web*, on :
+
+- 🏗️ monte un environnement de travail
+- ☁️ crée des *VM*s dans le *Cloud*
+- déploie un *cluster* `Kubernetes`
+- déploie un *storage cluster* `Portworx`
+- 🎶 déploie une application *Web* avec base de données `PostgreSQL` pour gérer nos albums de musique
+- 🔫 tue la *VM* sur laquelle se trouvait la base de données
+- attend quelques secondes
+- retrouve l'application fonctionnelle sans perte de données.
+- détruit les *clusters* et l'environnement de travail
+
 ## Pré-requis
 Pour cela vous n'aurez besoin que des pré-requis suivants :
 
